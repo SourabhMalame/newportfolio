@@ -1,0 +1,36 @@
+/* Skills.css */
+.skills {
+  height: 450px;
+  margin-top: 50px;
+  border: 1px solid;
+}
+.skills-list {
+  margin-top: 20px;
+}
+
+.skill-item {
+  margin-bottom: 10px;
+}
+
+.skill-name {
+  margin-bottom: 5px;
+}
+
+.skill-level {
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.skill-progress {
+  height: 100%;
+  border-radius: 5px;
+  background-color: #007bff; /* Change color as needed */
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+  .skill-level {
+    width: 100%; /* Make progress bar fill the container */
+  }
+}

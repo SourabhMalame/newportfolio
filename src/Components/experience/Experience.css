@@ -1,0 +1,37 @@
+/* Experience.css */
+
+.experience-container {
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.experience-item {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.experience-item h2 {
+  margin-top: 0;
+}
+
+.experience-item p {
+  margin: 10px 0;
+}
+
+.experience-item ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.experience-item ul li {
+  margin-bottom: 5px;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+  .experience-item {
+    padding: 15px;
+  }
+}
