@@ -56,10 +56,10 @@ const Footer = () => {
                                 smooth={true}
                                 offset={-70}
                                 duration={500}
-                                to="Contact"
+                                to="skills"
                                 className="text-md"
                             >
-                                Contact
+                                Skills
                             </Link>
                         </li>
                         <li>
@@ -172,7 +172,7 @@ const Footer = () => {
             </div>
             <hr className="divider" />
             <div className="footer--content--container">
-                <p className="footer--content">Made with 💖 by John</p>
+                <p className="footer--content">Made with 💖 by Sourabh Malame</p>
                 <div className="footer--social--icon">
                     <ul>
                         <li>
